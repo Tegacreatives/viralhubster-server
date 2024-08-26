@@ -1,1 +1,1 @@
-# Server application for an AI SMMP
+# Server Application for an AI SMMP
