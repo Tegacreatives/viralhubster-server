@@ -3,6 +3,7 @@ const imageController = require("../controllers/imageController");
 
 const route = express.Router();
 
-route.route("/").get(imageController.getImages);
+route.route("/upload").post(imageController.uploadImage);
+route.route("/caption/:id").get(imageController.getCaption);
 
 module.exports = route;
